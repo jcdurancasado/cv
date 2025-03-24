@@ -57,7 +57,7 @@
         }
         img {
             border-radius: 50%;
-            border: 3px solid #0b3954; /* Azul más oscuro */
+            border: 2px solid #0b3954; /* Borde reducido a 2px */
             width: 150px;
             height: 150px;
             object-fit: cover;
@@ -67,6 +67,20 @@
             border-left: 4px solid #0b3954; /* Azul más oscuro */
             padding-left: 10px;
         }
+        /* Efecto de iluminación ajustado en los iconos sin borde */
+    .social-media img {
+        display: inline-block;
+        border: none; /* Se elimina el borde */
+        border-radius: 50%; /* Asegura la forma redondeada */
+        width: 30px; /* Tamaño ajustado */
+        height: 30px; /* Tamaño ajustado */
+        margin: 0 10px; /* Espaciado entre íconos */
+        transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    .social-media img:hover {
+        box-shadow: 0 0 10px #0b3954; /* Efecto de iluminación */
+        transform: scale(1.1); /* Agranda ligeramente el icono */
+    }
     </style>
 </head>
 <body>
@@ -80,25 +94,37 @@
         
         <!-- Sección de Redes Sociales -->
         <div class="social-media" style="text-align: center; margin-top: 20px;">
-    <a href="https://wa.me/18296559913" target="_blank">
-        <img src="images/whatsapp-icon.png" alt="WhatsApp" style="width: 40px; height: 40px; border-radius: 50%; margin: 0 10px;">
-    </a>
-    <a href="https://www.instagram.com/jcdurancasado" target="_blank">
-        <img src="images/instagram-icon.png" alt="Instagram" style="width: 40px; height: 40px; border-radius: 50%; margin: 0 10px;">
-    </a>
-    <a href="https://www.facebook.com/jdurancasado" target="_blank">
-        <img src="images/facebook-icon.png" alt="Facebook" style="width: 40px; height: 40px; border-radius: 50%; margin: 0 10px;">
-    </a>
-    <a href="https://twitter.com/jcdurancasado" target="_blank">
-        <img src="images/twitter-icon.png" alt="Twitter" style="width: 40px; height: 40px; border-radius: 50%; margin: 0 10px;">
-    </a>
-    <a href="https://www.linkedin.com/in/jcdurancasado" target="_blank">
-        <img src="images/linkedin-icon.png" alt="LinkedIn" style="width: 40px; height: 40px; border-radius: 50%; margin: 0 10px;">
-    </a>
-    <a href="https://youtube.com/@jcdurancasado" target="_blank">
-        <img src="images/youtube-icon.png" alt="YouTube" style="width: 40px; height: 40px; border-radius: 50%; margin: 0 10px;">
-    </a>
-</div>
+            <a href="https://wa.me/18296559913" target="_blank">
+                <img src="images/whatsapp-icon.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/jcdurancasado" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/jdurancasado" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/jcdurancasado" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/jcdurancasado" target="_blank">
+                <img src="images/linkedin-icon.png" alt="LinkedIn">
+            </a>
+	    <a href="https://www.tiktok.com/@jcdurancasado" target="_blank">
+                <img src="images/tiktok-icon.png" alt="Tiktok">
+            </a>
+	    <a href="https://t.me/jcdurancasado" target="_blank">
+                <img src="images/telegram-icon.png" alt="Telegram">
+            </a>
+            <a href="https://www.threads.net/@jcdurancasado" target="_blank">
+                <img src="images/threads-icon.png" alt="Threads">
+            </a>
+	    <a href="https://www.twitch.tv/jcdurancasado" target="_blank">
+                <img src="images/twitch-icon.png" alt="Twitch">
+            </a>
+            <a href="https://youtube.com/@jcdurancasado" target="_blank">
+                <img src="images/youtube-icon.png" alt="YouTube">
+            </a>
+        </div>
         
         <div class="section">
             <h2>Datos Personales</h2>
